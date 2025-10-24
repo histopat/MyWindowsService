@@ -27,6 +27,6 @@ This posed a security risk because high-privilege services ran in the same sessi
 - **bin/Release** → The compiled service file (`MyWindowsService.exe`).
 
 ## ⚙️ Installation and Run
-1. Compile the project with the target **.NET Framework 4.7.2 / 4.8**.
+1. Compile the project with the target **.NET Framework 4.7.2**.
 2. Open a Command Prompt with administrator privileges.
 3. Install the service using **installutil** or **sc create** and activate it via services.msc.
