@@ -17,7 +17,7 @@ This posed a security risk because high-privilege services ran in the same sessi
 ## 🧪 Test Scenario
 - When the service starts, it attempts to display a window to the user using MessageBox.Show().
 
-- However, this operation fails because the service is not running in **UserInteractive** mode.
+- However, this operation fails because the service is not running in **UserInteractive** mode, also the error message is recorded in the C:\ServiceLog.txt file.
 
 - This proves that **Session 0 Isolation** is functioning correctly.
 
